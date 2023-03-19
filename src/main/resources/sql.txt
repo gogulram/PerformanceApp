@@ -1,0 +1,15 @@
+
+
+show databases;
+use performance;
+show tables ;
+Select * from code;
+select count(Unique_code)  from code;
+drop table code;
+truncate code;
+create table Code( id int auto_increment primary key, unique_code varchar(10) unique not null default'') ENGINE=InnoDB;
+Commit;
+
+
+insert into Code (unique_Code) values ( '0002Nzp'
+)
